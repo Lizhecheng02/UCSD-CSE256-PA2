@@ -1,0 +1,5 @@
+torch
+tqdm
+matplotlib
+scikit-learn
+transformers
