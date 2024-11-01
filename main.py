@@ -305,7 +305,7 @@ def main():
             heads=n_head,
             device=device,
             feed_forward_dimension=100,
-            dropout=0.1,
+            dropout=0.0,
             max_length=block_size
         )
         print("Training Decoder Generation Model ......")
