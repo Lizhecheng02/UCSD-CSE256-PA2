@@ -65,7 +65,7 @@ The code will draw attention plots after training for one specific sentence, the
   python main.py --run "decoder"
   ```
 
-You can also change the parameters in ``main.py``, but you should be able to get around 6.5 loss using default values.
+You can also change the parameters in ``main.py``, but you should be able to get around 4.8 loss using default values.
 
 <div style="text-align: center;">
     <img src="./acc_plots/decoder_loss.png" width="75%" />
