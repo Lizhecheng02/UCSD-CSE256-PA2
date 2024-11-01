@@ -51,12 +51,6 @@ You can change the parameters in ``main.py``, but you should be able to get arou
     <img src="./acc_plots/encoder_classic_mean_acc.png" width="75%" />
 </div>
 
-The code will draw attention plots after training for one specific sentence, they are saved under ``attention_maps`` folder. Here is an example:
-
-<div style="text-align: center;">
-    <img src="./attention_maps/encoder_classic_mean_attention_map_layer_4_head_1.png" width="75%" />
-</div>
-
 ##### 2. Decoder
 
 - If you want to train the traditional decoder-only model for text generation, use:
@@ -69,10 +63,4 @@ You can also change the parameters in ``main.py``, but you should be able to get
 
 <div style="text-align: center;">
     <img src="./acc_plots/decoder_loss.png" width="75%" />
-</div>
-
-The code will also draw attention plots after training for one specific sentence, they are also saved under ``attention_maps`` folder. We can see the difference caused by attention mask. Here is an example:
-
-<div style="text-align: center;">
-    <img src="./attention_maps/decoder_attention_map_layer_4_head_1.png" width="75%" />
 </div>
