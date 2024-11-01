@@ -370,7 +370,7 @@ def main():
         plt.xticks(range(eval_interval, max_iters + eval_interval, eval_interval))
         plt.legend()
         for i, hbush in enumerate(h_bush_perplexities):
-            plt.text((i + 1) * eval_interval, hbush - 25, f"{hbush: .2f}", ha="center", va="top")
+            plt.text((i + 1) * eval_interval, hbush - 5, f"{hbush: .2f}", ha="center", va="top")
 
         plt.subplot(3, 1, 2)
         plt.plot(range(eval_interval, max_iters + eval_interval, eval_interval), obama_perplexities, marker="o", color="black", label="Obama Perplexity")
@@ -379,7 +379,7 @@ def main():
         plt.xticks(range(eval_interval, max_iters + eval_interval, eval_interval))
         plt.legend()
         for i, obama in enumerate(obama_perplexities):
-            plt.text((i + 1) * eval_interval, obama - 25, f"{obama: .2f}", ha="center", va="top")
+            plt.text((i + 1) * eval_interval, obama - 5, f"{obama: .2f}", ha="center", va="top")
 
         plt.subplot(3, 1, 3)
         plt.plot(range(eval_interval, max_iters + eval_interval, eval_interval), w_bush_perplexities, marker="o", color="red", label="W Bush Perplexity")
@@ -388,7 +388,7 @@ def main():
         plt.xticks(range(eval_interval, max_iters + eval_interval, eval_interval))
         plt.legend()
         for i, wbush in enumerate(w_bush_perplexities):
-            plt.text((i + 1) * eval_interval, wbush - 25, f"{wbush: .2f}", ha="center", va="top")
+            plt.text((i + 1) * eval_interval, wbush - 5, f"{wbush: .2f}", ha="center", va="top")
 
         plt.tight_layout()
         plt.savefig(f"./acc_plots/{args.run}_all_eval.png")
