@@ -64,3 +64,7 @@ You can also change the parameters in ``main.py``, but you should be able to get
 <div style="text-align: center;">
     <img src="./acc_plots/decoder_loss.png" width="75%" />
 </div>
+
+### Questions
+
+You are welcome to discuss any issues you encounter while running this GitHub repository. Feel free to either open an issue or contact me directly at **zhl186@ucsd.edu**.
